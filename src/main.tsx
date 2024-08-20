@@ -17,7 +17,6 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        
         path: "/vite-react-router/contact",
         element: <Contact />,
       },
@@ -30,4 +29,3 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-

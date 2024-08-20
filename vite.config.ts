@@ -13,7 +13,7 @@ export default defineConfig(async () => {
 
 
   return {
-    base: "/",
+    base: "/vite-react-router/",
     resolve: {
       alias: {
         "@": path.resolve(__dirname, "src"),

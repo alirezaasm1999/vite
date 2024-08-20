@@ -29,7 +29,7 @@ export default defineConfig(async () => {
       // mkcert(),
     ],
     build: {
-      outDir: "./build",
+      outDir: "./dist",
       emptyOutDir: true,
       rollupOptions: {
         output: {
